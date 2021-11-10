@@ -1,0 +1,104 @@
+#website {
+    width: 80%;
+    margin: auto;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+}
+
+#top,
+#products,
+#header {
+    margin: 0;
+}
+
+#top_left a img {
+    width: 30px;
+}
+
+#top_right ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+#top_right ul li {
+    color: white;
+    margin-left: 10px;
+}
+
+#top_right ul li a {
+    color: white;
+    text-decoration: none;
+}
+#top_right ul li a:hover{
+    color: rgb(0, 153, 255);
+}
+#header #left .logo {
+    padding: 10px;
+}
+
+#header #left .logo img {
+    width: 300px;
+    height: 100px;
+}
+
+#navbar ul {
+    margin: 0;
+}
+
+#navbar ul li {
+    margin-left: 30px;
+}
+
+#navbar ul li a {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+#navbar .bars {
+    display: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: rgba(0, 174, 255, 0.884);
+}
+
+#products #list ul li a {
+    text-decoration: none;
+}
+#products #list ul li a:hover{
+    color: red;
+}
+@media screen and (max-width: 991px) {
+    #navbar .menu {
+        display: none;
+    }
+
+    #navbar .bars {
+        display: block;
+    }
+}
